@@ -171,7 +171,7 @@ def check_near(matrix: List[List[str]], cur_pos: Tuple[int, int]):
             return False
 
 
-with open("input.txt", "r") as input_file:
+with open("../../inputs/day3.txt", "r") as input_file:
     sum = 0
     matrix = convert_into_matrix(input_file.readlines())
 

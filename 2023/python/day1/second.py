@@ -15,7 +15,7 @@ numbers = {
 # -------^----- trovo una lettera che corrisponde alla prima lettera di un numero
 # pcg91vqrfpxxzzzoneightzt
 
-with open("second.txt", "r") as input_file:
+with open("../../inputs/day1.txt", "r") as input_file:
     sum = 0
     for line in [x.strip() for x in input_file.readlines()]:
         first_number: str = None
